@@ -118,3 +118,5 @@ DEBUG=True
 EOF
 cd ../../frontend
 npx create-react-app .
+# Removing unwanted React files
+rm -rf readme.md && cd public && rm -rf logo192.png logo512.png favicon.ico && cd ../src && rm -rf App.css index.css App.test.js reportWebVitals.js setupTests.js logo.svg
