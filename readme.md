@@ -11,6 +11,7 @@ Currently (V1.1):
 
 - In frontend (React):
   - Creates React app in current folder (.)
+  - Removes unwanted files
 
 
 Next step(s):
@@ -18,4 +19,5 @@ Next step(s):
 - Ask user if they want to use a custom DB (will be PostgreSQL)
 - Try to replace the values in settings.py by env('NAME_OF_VALUE') for the variables that will be set as env variables (sk, debug, etc.)
 - Push to git as the 'init' commit (only if able to do the step above)
+- Add CSS module for React
 - and more...
