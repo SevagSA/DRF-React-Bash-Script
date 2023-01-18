@@ -1,3 +1,6 @@
+cat <<EOF >.gitignore
+.DS_Store
+EOF
 echo 'Which version of Django do you want: '
 read django_version
 mkdir backend && mkdir frontend && cd backend && python3 -m venv ./env && source env/bin/activate && pip install django==$django_version && pip install djangorestframework && pip install django-environ && pip freeze > requirements.txt
