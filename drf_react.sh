@@ -117,6 +117,4 @@ SK=
 DEBUG=True
 EOF
 cd ../../frontend
-echo 'Enter React project name: '
-read react_proj_name
 npx create-react-app .
