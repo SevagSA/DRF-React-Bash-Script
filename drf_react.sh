@@ -109,7 +109,6 @@ dmypy.json
 cython_debug/
 .DS_Store
 EOF
-./manage.py migrate
 cd $django_proj_name
 cat <<EOF >.env.template
 SK=secretkey
