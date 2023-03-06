@@ -1,5 +1,5 @@
 # A bash script to generate a DRF/React project.
-Currently (V1.3): 
+Currently (V1.4): 
 
 - .gitignore for .DS_Store in root folder
 
